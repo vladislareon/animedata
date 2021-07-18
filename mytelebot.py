@@ -2,7 +2,6 @@ import pandas as pd
 import telebot
 import random
 from telebot import types
-from tokenname import token1
 
 df = pd.read_csv('anime.csv', converters={'anime_genre': eval})
 listgenre = []
@@ -13,7 +12,7 @@ listgenre = [cousine for cousine in listgenre if not cousine.isdigit()]
 listgenre.sort()
 
 
-bot = telebot.TeleBot(token1)
+bot = telebot.TeleBot('token for bot')
 
 
 @bot.message_handler(commands=['start'])
