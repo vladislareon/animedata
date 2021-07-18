@@ -111,4 +111,4 @@ df_anime = df_anime[indexes_match_queries].reset_index(drop=True)
 df_anime["number_of_episodes"] = pd.to_numeric(df_anime["number_of_episodes"])
 df_anime.to_csv('anime.csv', index=False)
 
-print(df_anime)
+
