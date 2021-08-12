@@ -12,7 +12,7 @@
 
 "anime_views" - количество просмотров
 
-"number_of_episodes" -количество эпизодов
+"number_of_episodes" - количество эпизодов
 
 "anime_url" - ссылка для просмотра
 
